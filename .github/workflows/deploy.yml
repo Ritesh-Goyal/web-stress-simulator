@@ -6,7 +6,7 @@ on:
     - main
 
 env:
-  AWS_REGION: us-west-2                    # set this to your preferred AWS region, e.g. us-west-1
+  AWS_REGION: us-east-1                    # set this to your preferred AWS region, e.g. us-west-1
   ECS_SERVICE: stress-simulator-service                 # set this to your Amazon ECS service name
   ECS_CLUSTER: web-simulator                 # set this to your Amazon ECS cluster name
   CONTAINER_NAME: web-stress-simulator              # set this to the name of the container in the
